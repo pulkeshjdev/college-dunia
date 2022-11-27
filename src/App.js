@@ -73,9 +73,6 @@ class App extends Component {
               </div>
             )}
           </div>
-          {/* {this.state.items.map((i, index) => (
-            <CollegeList collegeList={this.state.items} />
-          ))} */}
         </InfiniteScroll>
       </div>
     );
@@ -83,29 +80,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-
-// function App() {
-
-//   // let { dataLength, setDataLength } = useState(10);
-
-//   return (
-//     <>
-{/* <InfiniteScroll
-        dataLength={dataLength}
-        // next={this.fetchMoreData}
-        hasMore={false}
-        loader={<h4>Loading...</h4>}
-        endMessage={
-          <p style={{ textAlign: "center" }}>
-            <b>Yay! You have seen it all</b>
-          </p>
-        }
-      >
-        <CollegeList />
-      </InfiniteScroll> */}
-{/* <CollegeList />
-    </>
-  );
-} */}
