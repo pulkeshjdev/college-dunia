@@ -41,7 +41,5 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-  "homepage":{
-    "http://pulkeshjdev.github.io/college-dunia"
-  }
+  "homepage": "http://pulkeshjdev.github.io/college-dunia"
 }
