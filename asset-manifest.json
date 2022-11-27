@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/college-dunia/static/css/main.62f88b6c.css",
+    "main.js": "/college-dunia/static/js/main.6ce4758e.js",
+    "static/media/college_02.jpg": "/college-dunia/static/media/college_02.49fd7a5e09127d9a3001.jpg",
+    "static/media/MYRIADPRO-REGULAR.woff": "/college-dunia/static/media/MYRIADPRO-REGULAR.d30b05461519da431d12.woff",
+    "static/media/fontsfree-net-dinpro-1-webfont.woff": "/college-dunia/static/media/fontsfree-net-dinpro-1-webfont.eb104ab4ab99165332be.woff",
+    "static/media/fontsfree-net-dinpro-1-webfont.woff2": "/college-dunia/static/media/fontsfree-net-dinpro-1-webfont.9f7a01ce9eb69f7b0f10.woff2",
+    "index.html": "/college-dunia/index.html",
+    "main.62f88b6c.css.map": "/college-dunia/static/css/main.62f88b6c.css.map",
+    "main.6ce4758e.js.map": "/college-dunia/static/js/main.6ce4758e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62f88b6c.css",
+    "static/js/main.6ce4758e.js"
+  ]
+}
