@@ -1,0 +1,41 @@
+.Page{
+  padding: 3.063rem 0 2rem 0;
+}
+
+.Page-header{
+margin: 0 auto 0 3.5rem;
+font-family: DINPro;
+font-size: 1.156rem;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.97;
+letter-spacing: normal;
+text-align: left;
+color: #444;
+}
+
+.College-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  /* align-items: center; */
+  /* margin: 4.668rem 0 0 0; */
+}
+
+.Colleges{
+  width:47.5vw;
+}
+
+@media (max-width:1000px) {
+  .College-list{
+    flex-direction: column;
+  align-items: center;
+  }
+
+  .Colleges{
+    width:100vw;
+    display: contents;
+  }
+}

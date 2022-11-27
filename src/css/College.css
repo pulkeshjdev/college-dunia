@@ -1,0 +1,316 @@
+
+@font-face {
+font-family: 'DINPro';
+src: url('../../public/fontsfree-net-dinpro-1-webfont.woff2') format('woff2'),
+        url('../../public/fontsfree-net-dinpro-1-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Myriad Pro';
+font-style: normal;
+font-weight: normal;
+src: url('../../public/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+.Rectangle-1 {
+width: 39.938rem;
+height: 24rem;
+margin: 4.668rem 3.813rem 0 0;
+padding: 0 0 0.625rem;
+border-radius: 3.8px;
+box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+border: solid 0.2px #444;
+display: flex;
+flex-direction: column;
+}
+
+.Rectangle-1-1 {
+background-image: url("../../public/college_02.jpg");
+background-size: cover;
+height: 14.572rem;
+}
+
+.Rectangle-1-2{
+display: flex;
+flex-direction: row;
+height: 8.947rem;
+}
+
+.Rectangle-1-1-1{
+width: 4rem;
+height:3rem;
+margin: 1.77rem 0.814rem 5rem auto;
+padding: 0.563rem;
+border-radius: 3.8px;
+background-color: #f5a626;
+color: #fff;
+display: flex;
+flex-direction: column;
+}
+
+.clearfix::after{
+content:" ";
+display:block;
+clear:both;
+justify-content: end;
+}
+
+.Rating {
+font-family: DINPro;
+font-size: 0.844rem;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+}
+.Rating-remark {
+font-size: 1.156rem;
+font-weight: bold;
+}
+
+.Rectangle-1-1-2{
+display: flex;
+flex-direction: row;
+margin-top: auto;
+margin-bottom: 0.678rem;
+}
+
+.Tags {
+padding: 0.450rem 1.125rem 0.625rem 1.063rem;
+border-radius: 16.5px;
+background-color: #fff;
+}
+.Tags-div{
+display:flex;
+flex-direction: row;
+margin-left:0.819rem;
+}
+.Tags-text {
+font-family: DINPro;
+font-size: 0.844rem;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: left;
+color: #444;
+}
+
+.Ranking {
+margin: 0.688rem 0.877rem 0.625rem auto;
+font-family: DINPro;
+font-size: 0.844rem;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+}
+
+.College-details-left{
+width:20rem;
+display: flex;
+flex-direction: column;
+width: 30rem;
+}
+
+.College-name {
+margin: 1.125rem 0 0.188rem 1.063rem;
+font-family: DINPro;
+font-size: 1.156rem;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.97;
+letter-spacing: normal;
+text-align: left;
+color: #444;
+}
+
+.Nearest-place {
+margin: 0.688rem 0 0.5rem 1.063rem;
+font-family: DINPro;
+font-size: 0.844rem;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+color: #444;
+}
+.Shape-2 {
+width: 0.125rem;
+height: 0.75rem;
+margin: 0.625rem 0.375rem 0.5rem 0.375rem;
+border: solid 0.4px #444;
+background-color: #444;
+display: inline;
+}
+
+.Famous-nearest-places {
+margin: auto auto auto 1.063rem;
+font-family: DINPro;
+font-size: 0.844rem;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+color: #adadad;
+}
+.Famous-nearest-places .Text-style-1 {
+font-weight: bold;
+color: #37b396;
+}
+.Famous-nearest-places .Text-Style-4 {
+font-weight: bold;
+color: #444;
+}
+
+.Offertext {
+width: 20rem;
+margin-top: 0.563rem;
+padding: 0.688rem 1.313rem 0.688rem 1.063rem;
+border-radius: 0 2.188rem 2.188rem 0;
+background-color: #ccf5e7;
+}
+.Offertext-text {
+width: 19.313rem;
+height: 0.813rem;
+font-family: DINPro;
+font-size: 0.844rem;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+color: #444;
+}
+.Offertext-text .Text-style-1 {
+font-weight: 500;
+}
+.Offertext-text .Text-style-2 {
+color: #4bb89e;
+}
+.Offertext-text .Text-style-3 {
+color: #1999d2;
+}
+
+
+.College-details-right{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+margin-right: 1.688rem;
+}
+
+.Original-fees {
+margin-top: 0.75rem;
+display:flex;
+flex-direction: row;
+justify-content: flex-end;
+font-family: DINPro;
+text-decoration: line-through;
+}
+.Shape-3 {
+margin: 1.188rem 0.25rem 1.063rem 0.438rem;
+border: solid 0.2px #444;
+background-color: #444;
+}
+span .Original-fee-text{
+font-family: DINPro;
+font-size: 0.688rem;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.64;
+letter-spacing: normal;
+color: #444;
+}
+.Text-style-1 {
+font-family: Myriad Pro;
+font-size: 1.25rem;
+font-weight: 700;
+}
+
+.Discount-badge-triangle {
+width: 0; 
+height: 0;
+margin: 0.75rem 0 0.75rem 0;
+border-top: 9.5px solid transparent;
+border-bottom: 9.5px solid transparent; 
+border-right:10px solid #dd1c26;
+}
+.Discount-badge {
+width: 1rem;
+height: 0.875rem;
+margin: 0.75rem 0 0.75rem 0;
+padding: 0.188rem 0.375rem 0.125rem;
+background-color: #dd1c26;
+}
+
+.Ellipse-2 {
+width: 0.313rem;
+height: 0.25rem;
+float: left;
+margin: 0.125rem 0.125rem 0.188rem 0;
+background-color: #fff;
+}
+
+.Discount-fee {
+font-family: DINPro;
+font-size: 1.781rem;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.89;
+letter-spacing: normal;
+text-align: center;
+color: #dd1c26;
+}
+.Discount-fee .Text-style-1 {
+font-family: MyriadPro;
+}
+
+
+
+.Fees-cycle {
+font-family: Myriad Pro;
+font-size: 0.688rem;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.64;
+letter-spacing: normal;
+color: #444;
+}
+
+.Amenity{
+display:flex;
+flex-direction: row;
+}
+.Amenity-text{
+margin-top: 1rem;
+font-family: DINPro;
+font-size: 0.844rem;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+width: max-content;
+letter-spacing: normal;
+color: #37b396;
+}
+.Ellipse-1 {
+width: 0.25rem;
+height: 0.25rem;
+margin: 1.5rem 0.438rem;
+background-color: #37b396;
+}
